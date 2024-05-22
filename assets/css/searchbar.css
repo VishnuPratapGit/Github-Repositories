@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: ghostwhite;
+}
+
+
+.navbar {
+    display: grid;
+    place-content: center;
+    height: 15vh;
+
+}
+
+.searchbar {
+    height: 8vh;
+    width: 50rem;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border: 3px solid rgb(152, 152, 152);
+    background-color: rgba(33, 33, 33, 0.342);
+    color: ghostwhite;
+}

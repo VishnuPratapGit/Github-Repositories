@@ -1,0 +1,35 @@
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.avatar {
+    width: min-content;
+}
+
+.avatar img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.user {
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.user-name {
+    font-size: 25px;
+}
+
+.login {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(141, 150, 160);
+}
+
+.user-bio {
+    margin-top: 25px;
+}

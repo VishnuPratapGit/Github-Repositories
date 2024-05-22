@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    gap: 50px;
+    margin-inline: 10%;
+    margin-top: 60px;
+}
+
+.repo-container {
+    height: 65vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 500px));
+    gap: 2rem;
+    overflow-y: scroll;
+}
+
+.repo-container::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1117;
+    flex-direction: column;
+    border: 1px solid rgba(141, 150, 160, 0.3);
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+    gap: 10px;
+    height: 130px;
+}
+
+.name {
+    color: #4493F8;
+    font-weight: 500;
+}
+
+.description {
+    color: rgb(141, 150, 160);
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.language {
+    background-color: rgb(255, 247, 96);
+    border-radius: 2px;
+    color: black;
+    font-weight: 600;
+    padding: 3px;
+    padding-inline: 5px;
+    font-size: 13px;
+    width: max-content;
+}
